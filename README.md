@@ -1,6 +1,6 @@
 # fortnite_stats
 
-A new Flutter project.
+See screenshot of the app. Enjoy!
 
 ## Getting Started
 
