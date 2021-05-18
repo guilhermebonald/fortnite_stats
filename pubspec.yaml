@@ -1,0 +1,67 @@
+name: stats_fortnite
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+1.0.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.1
+  auto_size_text: ^2.1.0
+  mobx: ^1.2.1+4
+  flutter_mobx: ^1.1.0+2
+  mobx_codegen: ^1.1.2
+  dots_indicator: ^2.0.0
+  flutter_launcher_icons: ^0.9.0
+  
+  
+ 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.11.5
+  
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - 'lib/assets/images/home.jpg'
+    - 'lib/assets/images/search.jpg'
+
+
+  fonts:
+    - family: Black
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Black.ttf
+    - family: Bold
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Bold.ttf
+    - family: ExtraBold
+      fonts:
+        - asset: lib/assets/fonts/Poppins-ExtraBold.ttf
+    - family: ExtraLight
+      fonts:
+        - asset: lib/assets/fonts/Poppins-ExtraLight.ttf
+    - family: Light
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Light.ttf   
+    - family: Medium
+      fonts:
+        - asset: lib/assets/fonts/Poppins-Medium.ttf   
+    - family: SemiBold
+      fonts:
+        - asset: lib/assets/fonts/Poppins-SemiBold.ttf   
+  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/images/icone.png"
